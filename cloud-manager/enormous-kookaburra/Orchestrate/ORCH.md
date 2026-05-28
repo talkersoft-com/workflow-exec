@@ -13,12 +13,12 @@ Read these before Task 0000:
 
 ## Task list
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: ops/ skeleton + contract files
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: port handlers from main.go into ops/*.go
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: wire cobra to ops + stdin JSON dispatch in main()
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: update MCP runner + all tool call sites + rebuild
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: final tests + Results + Lessons + ship
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: ops/ skeleton + contract files
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: port handlers from main.go into ops/*.go
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: wire cobra to ops + stdin JSON dispatch in main()
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: update MCP runner + all tool call sites + rebuild
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: final tests + Results + Lessons + ship
 
 ## Execution steps
 
