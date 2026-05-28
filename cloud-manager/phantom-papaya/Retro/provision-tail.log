@@ -1,0 +1,50 @@
+2026/05/28 12:55:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:00:09 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:00:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:05:09 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:05:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:10:09 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:10:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:15:09 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:15:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:20:09 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:20:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:20:44 Received a message: command: create-vm
+identifier: 11f17114-7111-47a2-8081-752e45d19e1d
+metadata:
+  key: 
+  value: 
+status: Initialized
+data:
+  vm:
+    publicid: vm_28QBP0ZWJ5
+    displayname: repro-vm-1320
+    memory: 2048
+    disksizegb: 10
+    ipaddress: 10.0.150.56
+    dns: 8.8.8.8, 8.8.4.4
+    gateway: 10.0.150.1
+    interface: enp1s0
+    os: linux
+    osflavor: ubuntu
+    osversion: 24.04
+    ostag: noble
+    cpus: 1
+    bridge: br_vm
+    vmi: noble-server-cloudimg-amd64.img
+    cloudimageurl: https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+    ospartition: 2
+    uid: 700
+    gid: 1001
+  agents:
+    cloudmanager: cloudmanager
+    domain: talkersoft.com
+
+
+2026/05/28 13:20:44 Creating VM vm_28QBP0ZWJ5 (display="repro-vm-1320") with OS=linux, Flavor=ubuntu, Tag=noble, Version=24.04
+2026/05/28 13:20:44 Cloud image URL provided: https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+2026/05/28 13:20:44 Base image already exists: /var/lib/libvirt/images/linux/ubuntu/noble-server-cloudimg-amd64.img
+2026/05/28 13:20:44 Generating SSH key pair for VM vm_28QBP0ZWJ5 (type: ed25519)
+2026/05/28 13:20:45 Failed to store SSH key in Vault for VM vm_28QBP0ZWJ5: vault PUT cloudmanager/data/vm/instances/vm_28QBP0ZWJ5 returned 403: {"errors":["permission denied"]}
+2026/05/28 13:20:45 Could not create cloud host: vault key storage failed for VM vm_28QBP0ZWJ5: vault PUT cloudmanager/data/vm/instances/vm_28QBP0ZWJ5 returned 403: {"errors":["permission denied"]}
+2026/05/28 13:20:45 Successfully published success message

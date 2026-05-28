@@ -13,12 +13,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Reproduce the VM-creation failure end-to-end on `ubuntu-server.talkersoft.com`; capture request/response, screenshots, and journals; write `Retro/REPRODUCTION.md`
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Diagnose the failure layer from captured evidence; identify the root cause at file:line; write `Retro/DIAGNOSIS.md`
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Implement the minimal fix in the diagnosed repo(s); typecheck/build clean
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: Deploy via `install-*.py` in correct order; re-run reproduction; confirm success; write `Results/RESULT.md`
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: Write `Retro/LESSONS.md` and `Results/RESULT.md` (finalize); then `hv_ship`
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Reproduce the VM-creation failure end-to-end on `ubuntu-server.talkersoft.com`; capture request/response, screenshots, and journals; write `Retro/REPRODUCTION.md`
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Diagnose the failure layer from captured evidence; identify the root cause at file:line; write `Retro/DIAGNOSIS.md`
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Implement the minimal fix in the diagnosed repo(s); typecheck/build clean
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: Deploy via `install-*.py` in correct order; re-run reproduction; confirm success; write `Results/RESULT.md`
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: Write `Retro/LESSONS.md` and `Results/RESULT.md` (finalize); then `hv_ship`
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000

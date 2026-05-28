@@ -1,0 +1,100 @@
+2026/05/28 13:20:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:20:44 Received a message: command: create-vm
+identifier: 11f17114-7111-47a2-8081-752e45d19e1d
+metadata:
+  key: 
+  value: 
+status: Initialized
+data:
+  vm:
+    publicid: vm_28QBP0ZWJ5
+    displayname: repro-vm-1320
+    memory: 2048
+    disksizegb: 10
+    ipaddress: 10.0.150.56
+    dns: 8.8.8.8, 8.8.4.4
+    gateway: 10.0.150.1
+    interface: enp1s0
+    os: linux
+    osflavor: ubuntu
+    osversion: 24.04
+    ostag: noble
+    cpus: 1
+    bridge: br_vm
+    vmi: noble-server-cloudimg-amd64.img
+    cloudimageurl: https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+    ospartition: 2
+    uid: 700
+    gid: 1001
+  agents:
+    cloudmanager: cloudmanager
+    domain: talkersoft.com
+
+
+2026/05/28 13:20:44 Creating VM vm_28QBP0ZWJ5 (display="repro-vm-1320") with OS=linux, Flavor=ubuntu, Tag=noble, Version=24.04
+2026/05/28 13:20:44 Cloud image URL provided: https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+2026/05/28 13:20:44 Base image already exists: /var/lib/libvirt/images/linux/ubuntu/noble-server-cloudimg-amd64.img
+2026/05/28 13:20:44 Generating SSH key pair for VM vm_28QBP0ZWJ5 (type: ed25519)
+2026/05/28 13:20:45 Failed to store SSH key in Vault for VM vm_28QBP0ZWJ5: vault PUT cloudmanager/data/vm/instances/vm_28QBP0ZWJ5 returned 403: {"errors":["permission denied"]}
+2026/05/28 13:20:45 Could not create cloud host: vault key storage failed for VM vm_28QBP0ZWJ5: vault PUT cloudmanager/data/vm/instances/vm_28QBP0ZWJ5 returned 403: {"errors":["permission denied"]}
+2026/05/28 13:20:45 Successfully published success message
+2026/05/28 13:25:09 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:25:09 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:29:38 Started Service at 2026-05-28 13:29:38
+2026/05/28 13:29:38 SSH key provider: vault
+2026/05/28 13:29:38 Vault address: https://ubuntu-server.talkersoft.com:8200
+2026/05/28 13:29:38 Vault SSH secret path: cloudmanager/vm/instances
+2026/05/28 13:29:38 Vault key type: ed25519
+2026/05/28 13:29:38 playbook-runs: waiting for messages on queue "playbook-runs"
+2026/05/28 13:29:38 playbook-run-cancel: waiting for messages on queue "playbook-run-cancel"
+2026/05/28 13:29:38 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:29:38 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:29:38  [*] Waiting for messages. To exit press CTRL+C
+2026/05/28 13:30:20 Started Service at 2026-05-28 13:30:20
+2026/05/28 13:30:20 SSH key provider: vault
+2026/05/28 13:30:20 Vault address: https://ubuntu-server.talkersoft.com:8200
+2026/05/28 13:30:20 Vault SSH secret path: cloudmanager/vm/instances
+2026/05/28 13:30:20 Vault key type: ed25519
+2026/05/28 13:30:20 playbook-runs: waiting for messages on queue "playbook-runs"
+2026/05/28 13:30:20 playbook-run-cancel: waiting for messages on queue "playbook-run-cancel"
+2026/05/28 13:30:20 healthprobe: ansible-runner --version failed: exec: "ansible-runner": executable file not found in $PATH: 
+2026/05/28 13:30:20 healthprobe: PATCH feature-flag failed: Patch "http://localhost:5000/api/v1/admin/feature-flags/playbooks": dial tcp 127.0.0.1:5000: connect: connection refused
+2026/05/28 13:30:20  [*] Waiting for messages. To exit press CTRL+C
+2026/05/28 13:30:58 Received a message: command: create-vm
+identifier: 52d2c92e-bd71-4fde-93f9-11517339916b
+metadata:
+  key: 
+  value: 
+status: Initialized
+data:
+  vm:
+    publicid: vm_N5X4VCYY2X
+    displayname: postfix-vm-1330
+    memory: 2048
+    disksizegb: 10
+    ipaddress: 10.0.150.57
+    dns: 8.8.8.8, 8.8.4.4
+    gateway: 10.0.150.1
+    interface: enp1s0
+    os: linux
+    osflavor: ubuntu
+    osversion: 24.04
+    ostag: noble
+    cpus: 1
+    bridge: br_vm
+    vmi: noble-server-cloudimg-amd64.img
+    cloudimageurl: https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+    ospartition: 2
+    uid: 700
+    gid: 1001
+  agents:
+    cloudmanager: cloudmanager
+    domain: talkersoft.com
+
+
+2026/05/28 13:30:58 Creating VM vm_N5X4VCYY2X (display="postfix-vm-1330") with OS=linux, Flavor=ubuntu, Tag=noble, Version=24.04
+2026/05/28 13:30:58 Cloud image URL provided: https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+2026/05/28 13:30:58 Base image already exists: /var/lib/libvirt/images/linux/ubuntu/noble-server-cloudimg-amd64.img
+2026/05/28 13:30:58 Generating SSH key pair for VM vm_N5X4VCYY2X (type: ed25519)
+2026/05/28 13:30:58 SSH key pair stored in Vault at cloudmanager/vm/instances/vm_N5X4VCYY2X
+2026/05/28 13:31:06 Resizing VM disk to 10G: /var/lib/libvirt/images/vm_N5X4VCYY2X/vm_N5X4VCYY2X.qcow2

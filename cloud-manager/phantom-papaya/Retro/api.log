@@ -1,0 +1,1134 @@
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.config, v.created, v.created_by, v.description, v.file_name, v.host_id, v.iso_file_id, v.modified, v.modified_by, v.name, v.public_id, v.version
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.id, h.config, h.created, h.created_by, h.description, h.modified, h.modified_by, h.name, h.network_configuration_id, h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT f.id, f.created, f.created_by, f.description, f.enabled, f.healthy, f.key, f.last_probed_at, f.modified, f.modified_by, f.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM membership.feature_flags AS f
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT i.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.iso_files AS i
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE i.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT c.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM network.configurations AS c
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE c.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: CloudManager.Data.Services.HostService[0]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Retrieved list of hosts successfully
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT i.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.iso_files AS i
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE i.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT i.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.iso_files AS i
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE i.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT i.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.iso_files AS i
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE i.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: CloudManager.Data.Services.VirtualMachineImageService[0]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Virtual Machine Images retrieved successfully
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT s.public_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM vm.snapshots AS s
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE s.id = @__id_Value_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:08 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (2ms) [Parameters=[@__vmName_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT EXISTS (
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:           SELECT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:           FROM vm.virtual_machines AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:           WHERE v.name = @__vmName_0)
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.config, v.created, v.created_by, v.description, v.file_name, v.host_id, v.iso_file_id, v.modified, v.modified_by, v.name, v.public_id, v.version
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT i.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.iso_files AS i
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE i.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__hostId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.id, h.config, h.created, h.created_by, h.description, h.modified, h.modified_by, h.name, h.network_configuration_id, h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__hostId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 2
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__host_NetworkConfigurationId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT c.id, c.bridge, c.created, c.created_by, c.description, c.dynamic_end, c.dynamic_start, c.gateway_address, c.mask, c.modified, c.modified_by, c.name, c.primary_dns, c.public_id, c.reserved_end, c.reserved_start, c.secondary_dns
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.configurations AS c
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE c.id = @__host_NetworkConfigurationId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 2
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: CloudManager.Data.Services.NetworkConfigurationService[0]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       NetworkConfiguration retrieved successfully for Host ID 322417d2-f2ad-48e4-9f4d-71ed434d8694
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Object), @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?', @p8='?', @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?', @p14='?', @p15='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       INSERT INTO vm.virtual_machines (active_snapshot_id, config, created, created_by, description, disk_size_gb, host_id, mac_address, machine_status, memory, modified, modified_by, name, orchestration_status, public_id, virtual_machine_image_id)
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       RETURNING id;
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT c.id, c.bridge, c.created, c.created_by, c.description, c.dynamic_end, c.dynamic_start, c.gateway_address, c.mask, c.modified, c.modified_by, c.name, c.primary_dns, c.public_id, c.reserved_end, c.reserved_start, c.secondary_dns
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.configurations AS c
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: CloudManager.Data.Services.NetworkAddressService[0]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Next available IP address retrieved: 10.0.150.56
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT c.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.configurations AS c
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE c.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?' (DbType = Guid), @p8='?', @p9='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       INSERT INTO network.addresses (created, created_by, designated_host_id, host_id, ip_address, modified, modified_by, network_id, public_id, virtual_machine_id)
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       RETURNING id;
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: CloudManager.Data.Services.NetworkAddressService[0]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Network Address retrieved successfully: 11f17114-7111-47a2-8081-752e45d19e1d
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT c.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.configurations AS c
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE c.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT o.id, o.address, o.address2, o.admin_email, o.city, o.created, o.created_by, o.description, o.domain, o.modified, o.modified_by, o.name, o.postal_code, o.public_id, o.state
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM membership.organizations AS o
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: CloudManager.Data.Services.OrganizationService[0]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Organizations retrieved successfully
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__hostId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.id, h.config, h.created, h.created_by, h.description, h.modified, h.modified_by, h.name, h.network_configuration_id, h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__hostId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 2
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__host_NetworkConfigurationId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT c.id, c.bridge, c.created, c.created_by, c.description, c.dynamic_end, c.dynamic_start, c.gateway_address, c.mask, c.modified, c.modified_by, c.name, c.primary_dns, c.public_id, c.reserved_end, c.reserved_start, c.secondary_dns
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.configurations AS c
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE c.id = @__host_NetworkConfigurationId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 2
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: CloudManager.Data.Services.NetworkConfigurationService[0]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       NetworkConfiguration retrieved successfully for Host ID 322417d2-f2ad-48e4-9f4d-71ed434d8694
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.config, v.created, v.created_by, v.description, v.file_name, v.host_id, v.iso_file_id, v.modified, v.modified_by, v.name, v.public_id, v.version
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT i.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.iso_files AS i
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE i.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: CloudManager.API.Controllers.VirtualMachineController[0]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       VM creation message sent for repro-vm-1320 with OS=linux, Flavor=ubuntu, Tag=noble, CloudImageUrl=https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__publicId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__virtualMachineId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT s.id, s.created, s.created_by, s.description, s.modified, s.modified_by, s.name, s.orchestration_status, s.parent_snapshot_id, s.public_id, s.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.snapshots AS s
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE s.virtual_machine_id = @__virtualMachineId_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT s.public_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM vm.snapshots AS s
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE s.id = @__id_Value_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:44 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: CloudManager.AMQP.Consumer.ConsumerService[0]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Received message: command: create-vm
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       identifier: 11f17114-7111-47a2-8081-752e45d19e1d
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       status: Failed
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       data:
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:         agents:
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           cloudmanager: cloudmanager
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           domain: talkersoft.com
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:         vm:
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           bridge: br_vm
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           cloudimageurl: https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           cpus: 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           disksizegb: 10
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           displayname: repro-vm-1320
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           dns: 8.8.8.8, 8.8.4.4
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           gateway: 10.0.150.1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           gid: 1001
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           interface: enp1s0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           ipaddress: 10.0.150.56
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           memory: 2048
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           os: linux
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           osflavor: ubuntu
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           ospartition: 2
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           ostag: noble
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           osversion: 24.04
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           publicid: vm_28QBP0ZWJ5
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           uid: 700
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:           vmi: noble-server-cloudimg-amd64.img
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__get_Item_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__virtualMachine_Id_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__virtualMachine_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.public_id = @__publicId_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__publicId_0='?'], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.public_id = @__publicId_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (5ms) [Parameters=[@p16='?' (DbType = Guid), @p0='?' (DbType = Guid), @p1='?' (DbType = Object), @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?', @p8='?', @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?', @p14='?', @p15='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       UPDATE vm.virtual_machines SET active_snapshot_id = @p0, config = @p1, created = @p2, created_by = @p3, description = @p4, disk_size_gb = @p5, host_id = @p6, mac_address = @p7, machine_status = @p8, memory = @p9, modified = @p10, modified_by = @p11, name = @p12, orchestration_status = @p13, public_id = @p14, virtual_machine_image_id = @p15
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE id = @p16;
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 🔍 Connection String Debug:
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBHOST=localhost
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBUSER=cloudmanager
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPASSWD=****
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DBPORT=5432
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    DATABASE=clouddb
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    SSLMODE=Prefer
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:    TRUSTSERVERCERTIFICATE=true
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: 📋 Generated connection string: Host=localhost;User ID=cloudmanager;Password=****;Port=5432;Database=clouddb;Pooling=true;SslMode=Prefer;Trust Server Certificate=true;
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.id, v.active_snapshot_id, v.config, v.created, v.created_by, v.description, v.disk_size_gb, v.host_id, v.mac_address, v.machine_status, v.memory, v.modified, v.modified_by, v.name, v.orchestration_status, v.public_id, v.virtual_machine_image_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machines AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT s.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.snapshots AS s
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE s.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (1ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT h.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM bare_metal.hosts AS h
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE h.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT v.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.virtual_machine_images AS v
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE v.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT s.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.snapshots AS s
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE s.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__id_Value_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT s.public_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM vm.snapshots AS s
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE s.id = @__id_Value_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]: info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       Executed DbCommand (0ms) [Parameters=[@__entity_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       SELECT a.id, a.created, a.created_by, a.designated_host_id, a.host_id, a.ip_address, a.modified, a.modified_by, a.network_id, a.public_id, a.virtual_machine_id
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       FROM network.addresses AS a
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       WHERE a.virtual_machine_id = @__entity_Id_0
+May 28 13:20:45 ubuntu-server CloudManager.API[3584661]:       LIMIT 1

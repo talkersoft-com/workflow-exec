@@ -15,7 +15,7 @@
 The actual set of touched repos is determined in Phase 2 (Diagnose). Most likely a single code repo plus `workflow-exec`. Repos not touched will still ride on the branch but be skipped by `hv_ship`.
 
 ## Branch
-`phantom-papaya`
+`giddy-waterbuffalo` (execution; planning was on `phantom-papaya`)
 
 ## Initialize (Task 0000)
 ```
