@@ -13,12 +13,12 @@ Read these before Task 0000:
 
 ## Task list
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Config struct — PRMode enum + UnmarshalYAML backward compat
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: ops/ship.go — dispatch on pr_mode
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: ops/await_merge.go — polling loop + contract updates
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: MCP hv_await_merge tool + rebuild
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: Update configs + final tests + Results + Lessons + ship
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Config struct — PRMode enum + UnmarshalYAML backward compat
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: ops/ship.go — dispatch on pr_mode
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: ops/await_merge.go — polling loop + contract updates
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: MCP hv_await_merge tool + rebuild
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: Update configs + final tests + Results + Lessons + ship
 
 ## Execution steps
 
