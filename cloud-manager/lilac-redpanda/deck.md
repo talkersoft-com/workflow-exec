@@ -15,7 +15,7 @@
 Repos not listed will be on the feature branch but skipped by `hv_ship`.
 
 ## Branch
-`lilac-redpanda` (planning), execution branch recorded in Task 0000
+`exuberant-harp` (execution; planning was on `lilac-redpanda`)
 
 ## Initialize (Task 0000)
 ```
