@@ -13,12 +13,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record execution branch
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Editor close button + referrer + `onDirtyChange` from `RoleFileEditor` + `beforeunload` + flex layout
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Edit button on `PlaybookDetailPage` header + pencil icon on each `PlaybooksPage` row, both passing `location.state.from`
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Typecheck + build + deploy via `install-web-app.py`
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: Playwright verification of all three close paths (from list, from detail, cold-load)
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: Write `Results/RESULT.md` + `Retro/LESSONS.md`; then `hv_ship`
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record execution branch
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Editor close button + referrer + `onDirtyChange` from `RoleFileEditor` + `beforeunload` + flex layout
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Edit button on `PlaybookDetailPage` header + pencil icon on each `PlaybooksPage` row, both passing `location.state.from`
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Typecheck + build + deploy via `install-web-app.py`
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: Playwright verification of all three close paths (from list, from detail, cold-load)
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: Write `Results/RESULT.md` + `Retro/LESSONS.md`; then `hv_ship`
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000

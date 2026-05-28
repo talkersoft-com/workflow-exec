@@ -1,0 +1,2 @@
+cloud-manager-web:src/components/RoleFileEditor/RoleFileEditor.tsx:16,18,32 — add optional onDirtyChange prop and fire it from useEffect on dirty change
+cloud-manager-web:src/pages/AnsiblePlaybookEditorPage.tsx:2,22-55,72-78,85-92 — useLocation/useNavigate imports, dirty state, page-level beforeunload guard, close() handler with /ansible/ prefix guard and detail-page fallback, Close button next to Revisions, flex column layout replacing calc(100vh - 120px), pass onDirtyChange={setDirty} to LazyEditor
