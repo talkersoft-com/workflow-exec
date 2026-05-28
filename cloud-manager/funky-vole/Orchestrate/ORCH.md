@@ -14,20 +14,20 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record execution branch
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: EF migration — `vault_run_token` on playbook_runs, `is_controller` on hosts + backfill
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: `CloudManager.Vault.Client` project (IVaultClient + HTTP impl) + Serilog redaction enricher + DI
-- [ ] `Tasks/0003-TASK.md` — **Phase 3 (A)**: `TriggerMultiVmAsync` mint; PATCH callback + CancelAsync revoke; `VaultRunTokenSweeper` BackgroundService; DTO field + scrub
-- [ ] `Tasks/0004-TASK.md` — **Phase 4 (A)**: vorch-service `runDTO.vaultRunToken` + `executeOneTarget` env injection
-- [ ] `Tasks/0005-TASK.md` — **Phase 5 (B)**: requirements DTOs + Service + 3 endpoints + DI
-- [ ] `Tasks/0006-TASK.md` — **Phase 6 (B)**: enforcement in `TriggerMultiVmAsync` + `RequirementsUnmetException` + 400 mapping + `SatisfiesVersion`
-- [ ] `Tasks/0007-TASK.md` — **Phase 7 (C)**: Host.IsController entity + DbContext + mapper + DTO + API surface + `ResolveControllerHostIdAsync`
-- [ ] `Tasks/0008-TASK.md` — **Phase 8 (C)**: web controller selector + persistence + Collections list/detail integration + All-controllers summary
-- [ ] `Tasks/0009-TASK.md` — **Phase 9 (B)**: `playbookCollectionRequirementsSlice` + Required-collections panel + Add-requirement modal + banner
-- [ ] `Tasks/0010-TASK.md` — **Phase 10 (B)**: `AnsibleRunPage` requirement check + disabled Run button + inline message
-- [ ] `Tasks/0011-TASK.md` — **Phase 11**: Build + deploy (migration + api + vorch + web)
-- [ ] `Tasks/0012-TASK.md` — **Phase 12**: Playwright + Vault audit verification (A.6 / B.5 / C.5 acceptance)
-- [ ] `Tasks/0013-TASK.md` — **Phase 13**: Write Results + LESSONS; hv_ship
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record execution branch
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: EF migration — `vault_run_token` on playbook_runs, `is_controller` on hosts + backfill
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: `CloudManager.Vault.Client` project (IVaultClient + HTTP impl) + Serilog redaction enricher + DI
+- [x] `Tasks/0003-TASK.md` — **Phase 3 (A)**: `TriggerMultiVmAsync` mint; PATCH callback + CancelAsync revoke; `VaultRunTokenSweeper` BackgroundService; DTO field + scrub
+- [x] `Tasks/0004-TASK.md` — **Phase 4 (A)**: vorch-service `runDTO.vaultRunToken` + `executeOneTarget` env injection
+- [x] `Tasks/0005-TASK.md` — **Phase 5 (B)**: requirements DTOs + Service + 3 endpoints + DI
+- [x] `Tasks/0006-TASK.md` — **Phase 6 (B)**: enforcement in `TriggerMultiVmAsync` + `RequirementsUnmetException` + 400 mapping + `SatisfiesVersion`
+- [x] `Tasks/0007-TASK.md` — **Phase 7 (C)**: Host.IsController entity + DbContext + mapper + DTO + API surface + `ResolveControllerHostIdAsync`
+- [x] `Tasks/0008-TASK.md` — **Phase 8 (C)**: web controller selector + persistence + Collections list/detail integration + All-controllers summary
+- [x] `Tasks/0009-TASK.md` — **Phase 9 (B)**: `playbookCollectionRequirementsSlice` + Required-collections panel + Add-requirement modal + banner
+- [x] `Tasks/0010-TASK.md` — **Phase 10 (B)**: `AnsibleRunPage` requirement check + disabled Run button + inline message
+- [x] `Tasks/0011-TASK.md` — **Phase 11**: Build + deploy (migration + api + vorch + web)
+- [x] `Tasks/0012-TASK.md` — **Phase 12**: Playwright + Vault audit verification (A.6 / B.5 / C.5 acceptance)
+- [x] `Tasks/0013-TASK.md` — **Phase 13**: Write Results + LESSONS; hv_ship
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000

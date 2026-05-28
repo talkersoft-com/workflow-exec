@@ -14,7 +14,7 @@
 Repos not listed will be on the feature branch but skipped by hv_ship. Note: `vorch-lib` is **not** touched in this workflow — `runDTO` lives in `vorch-service`.
 
 ## Branch
-`funky-vole` (planning), execution branch recorded in Task 0000
+`fizzy-meerkat` (execution; planning was on `funky-vole`)
 
 ## Initialize (Task 0000)
 ```

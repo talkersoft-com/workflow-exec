@@ -1,0 +1,1 @@
+cloud-manager-web:src/pages/AnsibleRunPage.tsx — load requirements when playbook selected; compute missing against the selected controller's host_collections; disable Run button when missing.length > 0; inline error "Run blocked: missing required collection(s): ns.name, ..." with Link to /ansible/collections

@@ -1,0 +1,2 @@
+vorch-service:vorch-service/handlers/playbook_run_handler.go — runDTO gains VaultRunToken (json:"vaultRunToken,omitempty"); executeTargets call passes run.VaultRunToken
+vorch-service:vorch-service/handlers/playbook_run_exec.go — executeTargets + executeOneTarget take apiRunToken string; if non-empty, used directly as VAULT_TOKEN (and skips vorch's own MintChildToken); else falls back to existing vorch-side mint for legacy behavior. Token value never logged (only "using API-minted VAULT_TOKEN" tag).
