@@ -13,11 +13,11 @@ Read these before Task 0000:
 
 ## Task list
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: HV_HOME direct path in config.LoadSetup()
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Create workflow-configuration repo + seed + add to deck
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: make configure script + shell sourcing reminder
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: Verify end-to-end + Results + Lessons + ship
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: HV_HOME direct path in config.LoadSetup()
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Create workflow-configuration repo + seed + add to deck
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: make configure script + shell sourcing reminder
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: Verify end-to-end + Results + Lessons + ship
 
 ## Execution steps
 
