@@ -12,7 +12,7 @@
 Repos not listed will be on the feature branch but skipped by `hv_ship`.
 
 ## Branch
-`purple-vulture` (planning), execution branch recorded in Task 0000
+`oaty-polliwog` (execution; planning was on `purple-vulture`)
 
 ## Initialize (Task 0000)
 ```
