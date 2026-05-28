@@ -1,0 +1,15 @@
+# Test 0000 — Workspace Initialized
+
+## TC-001 — All repos on feature branch
+Run `hv_status` on the deck.
+Pass: every repo shows the same feature branch name, no repo is on the default branch.
+Fail: any repo is on the default branch or a different branch.
+
+## TC-002 — All repos clean
+Pass: hv_status shows no dirty repos.
+Fail: any repo shows uncommitted changes, unpushed commits, or stash entries.
+
+## TC-003 — Branch name recorded
+Open `../deck.md`.
+Pass: the Branch field is filled in with the generated branch name (not "giddy-minnow" placeholder or "TBD").
+Fail: Branch field still says giddy-minnow or is missing.
