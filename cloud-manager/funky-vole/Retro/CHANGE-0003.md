@@ -1,0 +1,6 @@
+cloud-manager-api:src/Models/CloudManager.DTO/Models/PlaybookRun.cs — added VaultRunToken (string?) with doc comment about scrub
+cloud-manager-api:src/Services/CloudManager.Data.Services/PlaybookRunService.cs — inject IVaultClient; BuildRunPolicy helper; RevokeRunVaultAsync (idempotent); TriggerMultiVmAsync mints child token after first SaveChanges and persists run.VaultSecretsPrefix+VaultRunToken with second SaveChanges; CancelAsync calls revoke on Queued→Cancelled transition; ListByAssignmentAsync scrubs VaultRunToken to null
+cloud-manager-api:src/Services/CloudManager.Data.Services/PlaybookRunTargetService.cs — inject IVaultClient; in UpdateAsync, when target reaches terminal status, check if all sibling targets are terminal and roll up the run row to Failed/Succeeded/Cancelled then RevokeRunVaultAsync + SaveChanges
+cloud-manager-api:src/CloudManager.API/HostedServices/VaultRunTokenSweeper.cs — new BackgroundService; 30-min ticks; finds runs with VaultRunToken set + status non-terminal + started_at < now-2h; marks Failed and revokes
+cloud-manager-api:src/CloudManager.API/Program.cs — AddHostedService<VaultRunTokenSweeper>
+cloud-manager-api:src/CloudManager.API/Controllers/PlaybookController.cs — TriggerRun catches VaultException → 503 "Vault unavailable, try again"
