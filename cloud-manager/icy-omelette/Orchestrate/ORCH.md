@@ -13,9 +13,9 @@ Read these before Task 0000:
 
 ## Task list
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Implement plan_paths in workflow.ts + build
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Ship hive-deck-pro + write Results/RESULT.md + Retro/LESSONS.md + ship cloud-manager
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status verify
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Implement plan_paths in workflow.ts + build
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Ship hive-deck-pro + write Results/RESULT.md + Retro/LESSONS.md + ship cloud-manager
 
 ## Execution steps
 
