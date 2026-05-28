@@ -14,17 +14,17 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record execution branch
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: EF Core migration (ansible schema, 4 tables, CollectionInstallStatus enum, seed)
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: API entities + DTOs + AutoMapper + service interfaces + DI
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: API endpoints (10 routes under /api/v1/ansible)
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: API AMQP publishers (CollectionInstallPublisher + CollectionRemovePublisher)
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: vorch-lib message structs (camelCase JSON tags)
-- [ ] `Tasks/0006-TASK.md` — **Phase 6**: vorch-service subscribers + handlers + widen ReadWritePaths
-- [ ] `Tasks/0007-TASK.md` — **Phase 7**: Web Collections sub-nav tab + list/detail/modal + 3 slices + polling
-- [ ] `Tasks/0008-TASK.md` — **Phase 8**: Build + deploy (migration apply, all three install-*.py)
-- [ ] `Tasks/0009-TASK.md` — **Phase 9**: Playwright e2e verification of the six acceptance criteria
-- [ ] `Tasks/0010-TASK.md` — **Phase 10**: Write Results + LESSONS; hv_ship
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record execution branch
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: EF Core migration (ansible schema, 4 tables, CollectionInstallStatus enum, seed)
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: API entities + DTOs + AutoMapper + service interfaces + DI
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: API endpoints (10 routes under /api/v1/ansible)
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: API AMQP publishers (CollectionInstallPublisher + CollectionRemovePublisher)
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: vorch-lib message structs (camelCase JSON tags)
+- [x] `Tasks/0006-TASK.md` — **Phase 6**: vorch-service subscribers + handlers + widen ReadWritePaths
+- [x] `Tasks/0007-TASK.md` — **Phase 7**: Web Collections sub-nav tab + list/detail/modal + 3 slices + polling
+- [x] `Tasks/0008-TASK.md` — **Phase 8**: Build + deploy (migration apply, all three install-*.py)
+- [x] `Tasks/0009-TASK.md` — **Phase 9**: Playwright e2e verification of the six acceptance criteria
+- [x] `Tasks/0010-TASK.md` — **Phase 10**: Write Results + LESSONS; hv_ship
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
