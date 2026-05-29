@@ -13,10 +13,10 @@ Read these before Task 0000:
 
 ## Task list
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status hive-deck-pro
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Remove continue_transaction; restore infinite await_merge loop
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Add open_browser config flag + browser tab opening
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Build Go + MCP, rebuild artifacts, ship hive-deck-pro
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status hive-deck-pro
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Remove continue_transaction; restore infinite await_merge loop
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Add open_browser config flag + browser tab opening
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Build Go + MCP, rebuild artifacts, ship hive-deck-pro
 
 ## Execution steps
 
