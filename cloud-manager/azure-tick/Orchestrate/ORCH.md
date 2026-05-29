@@ -14,19 +14,19 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status; read PLAN + LESSONS + FIX-002
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: EF migration `ip_address` on `vm.virtual_machines`; entity + DTO + AutoMapper
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: `UpdateIpAddressAsync` service method + `PATCH /api/v1/vm/{publicId}/ip-address` controller; GET responses include `ipAddress`; target DTO surfaces VM IP
-- [ ] `Tasks/0003-TASK.md` — **Phase 3 (Gap 2)**: `PlaybookMaterializationService` writes every `RelativePath` under `project/`
-- [ ] `Tasks/0004-TASK.md` — **Phase 4 (Gap 1 server-side)**: Vorch `CreateVMCommand` PATCHes API with the VM IP after successful create
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: `scripts/porch/backfill-vm-ip-addresses.py` — `virsh domifaddr` per row, PATCH API
-- [ ] `Tasks/0006-TASK.md` — **Phase 6 (Gap 1 runner-side)**: Porch writes `inventory/hosts` from `target.IpAddress/VMName`, passes `--inventory`, fails target on empty IP
-- [ ] `Tasks/0007-TASK.md` — **Phase 7 (Gap 2 close-out)**: Porch drops `--project-dir <workdir>` workaround
-- [ ] `Tasks/0008-TASK.md` — **Phase 8 (Gap 3)**: `redactingWriter` → `internal/redact/`; applied to `cmd.Stderr` + stdout scan loop + log publisher; unit test
-- [ ] `Tasks/0009-TASK.md` — **Phase 9 (Gap 4)**: `install-porch-service.py` prefers apt > pipx --global; sets `ANSIBLE_RUNNER_BIN`; flips `ProtectHome=yes`; uninstall cleans FIX-001 symlinks
-- [ ] `Tasks/0010-TASK.md` — **Phase 10**: Build + deploy (publish API; build porch; apply migration; run backfill; restart services)
-- [ ] `Tasks/0011-TASK.md` — **Phase 11 (Gap 5)**: SQL cleanup of stale Queued runs; record counts in CHANGE-0011
-- [ ] `Tasks/0012-TASK.md` — **Phase 12**: E2E verify pg-on-postgres-test (postgres-16 installed, Vault path populated, zero `hvs.*`)
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status; read PLAN + LESSONS + FIX-002
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: EF migration `ip_address` on `vm.virtual_machines`; entity + DTO + AutoMapper
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: `UpdateIpAddressAsync` service method + `PATCH /api/v1/vm/{publicId}/ip-address` controller; GET responses include `ipAddress`; target DTO surfaces VM IP
+- [x] `Tasks/0003-TASK.md` — **Phase 3 (Gap 2)**: `PlaybookMaterializationService` writes every `RelativePath` under `project/`
+- [x] `Tasks/0004-TASK.md` — **Phase 4 (Gap 1 server-side)**: Vorch `CreateVMCommand` PATCHes API with the VM IP after successful create
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: `scripts/porch/backfill-vm-ip-addresses.py` — `virsh domifaddr` per row, PATCH API
+- [x] `Tasks/0006-TASK.md` — **Phase 6 (Gap 1 runner-side)**: Porch writes `inventory/hosts` from `target.IpAddress/VMName`, passes `--inventory`, fails target on empty IP
+- [x] `Tasks/0007-TASK.md` — **Phase 7 (Gap 2 close-out)**: Porch drops `--project-dir <workdir>` workaround
+- [x] `Tasks/0008-TASK.md` — **Phase 8 (Gap 3)**: `redactingWriter` → `internal/redact/`; applied to `cmd.Stderr` + stdout scan loop + log publisher; unit test
+- [x] `Tasks/0009-TASK.md` — **Phase 9 (Gap 4)**: `install-porch-service.py` prefers apt > pipx --global; sets `ANSIBLE_RUNNER_BIN`; flips `ProtectHome=yes`; uninstall cleans FIX-001 symlinks
+- [x] `Tasks/0010-TASK.md` — **Phase 10**: Build + deploy (publish API; build porch; apply migration; run backfill; restart services)
+- [x] `Tasks/0011-TASK.md` — **Phase 11 (Gap 5)**: SQL cleanup of stale Queued runs; record counts in CHANGE-0011
+- [x] `Tasks/0012-TASK.md` — **Phase 12**: E2E verify pg-on-postgres-test (postgres-16 installed, Vault path populated, zero `hvs.*`) — conditional pass; see Retro/FIX-002 (playbook-authoring + stale-revision gaps out of scope)
 - [ ] `Tasks/0013-TASK.md` — **Phase 13**: Write Results/RESULT.md + Retro/LESSONS.md; hv_ship
 
 ## Execution steps
