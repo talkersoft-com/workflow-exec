@@ -13,17 +13,17 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status (confirm jazzy-herring) + read PLAN.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Module rename — `vorch-service/go.mod` from `module main` to a real path; update every import
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Package carve-out — move `app.go` to `cmd/vorch-service/main.go`; create `cmd/porch/main.go` scaffold; move handlers/messagesub/healthprobe to `internal/{vm,ansible,vmsub,ansiblesub,amqp,pub,models,vault}`; **verify** assignment-tracking SQL presence in `playbook_run_handler.go`
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Porch wires consumers + healthprobe — `cmd/porch/main.go` registers `playbook-runs`, `playbook-run-cancel`, `collection-installs`, `collection-removes` + starts healthprobe goroutine; **verify** API endpoint mismatch for healthprobe (PATCH `/api/v1/admin/feature-flags/playbooks` vs `FeatureFlagsController` route) — if broken, ship API fix in same plan
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: Vorch loses ansible — `cmd/vorch-service/main.go` only registers VM consumer; `go list -deps` verified clean both directions
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: Assignment tracking + log redaction parity — if Phase 0002 found assignment SQL absent, implement; add Go-side `hvs\.[A-Za-z0-9_\-]+` regex log scrubber
-- [ ] `Tasks/0006-TASK.md` — **Phase 6**: Install scripts + systemd unit — `cloud-manager-api/scripts/porch/*.py` mirroring vorch; `/etc/systemd/system/porch.service` template; `/etc/cloud-manager/porch.env` template; publish porch binary to `/kvm-automator/porch`
-- [ ] `Tasks/0007-TASK.md` — **Phase 7**: Cutover — execute the 8-step sequence from PLAN.md; one consumer on `playbook-runs` (porch)
-- [ ] `Tasks/0008-TASK.md` — **Phase 8**: Retire the Python worker — stop/disable/remove systemd unit + `/opt/cloud-manager-worker` + pipx venv + worker.env
-- [ ] `Tasks/0009-TASK.md` — **Phase 9**: End-to-end verification — pg-on-postgres-test run goes terminal-success; vault secrets at expected path; `vm_playbook_assignments` updated; zero `hvs.*` in porch journal
-- [ ] `Tasks/0010-TASK.md` — **Phase 10**: Write Results/RESULT.md + Retro/LESSONS.md; hv_ship
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status (confirm jazzy-herring) + read PLAN.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Module rename — `vorch-service/go.mod` from `module main` to a real path; update every import
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Package carve-out — move `app.go` to `cmd/vorch-service/main.go`; create `cmd/porch/main.go` scaffold; move handlers/messagesub/healthprobe to `internal/{vm,ansible,vmsub,ansiblesub,amqp,pub,models,vault}`; **verify** assignment-tracking SQL presence in `playbook_run_handler.go`
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Porch wires consumers + healthprobe — `cmd/porch/main.go` registers `playbook-runs`, `playbook-run-cancel`, `collection-installs`, `collection-removes` + starts healthprobe goroutine; **verify** API endpoint mismatch for healthprobe (PATCH `/api/v1/admin/feature-flags/playbooks` vs `FeatureFlagsController` route) — if broken, ship API fix in same plan
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: Vorch loses ansible — `cmd/vorch-service/main.go` only registers VM consumer; `go list -deps` verified clean both directions
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: Assignment tracking + log redaction parity — if Phase 0002 found assignment SQL absent, implement; add Go-side `hvs\.[A-Za-z0-9_\-]+` regex log scrubber
+- [x] `Tasks/0006-TASK.md` — **Phase 6**: Install scripts + systemd unit — `cloud-manager-api/scripts/porch/*.py` mirroring vorch; `/etc/systemd/system/porch.service` template; `/etc/cloud-manager/porch.env` template; publish porch binary to `/kvm-automator/porch`
+- [x] `Tasks/0007-TASK.md` — **Phase 7**: Cutover — execute the 8-step sequence from PLAN.md; one consumer on `playbook-runs` (porch)
+- [x] `Tasks/0008-TASK.md` — **Phase 8**: Retire the Python worker — stop/disable/remove systemd unit + `/opt/cloud-manager-worker` + pipx venv + worker.env
+- [x] `Tasks/0009-TASK.md` — **Phase 9**: End-to-end verification — pg-on-postgres-test run goes terminal-success; vault secrets at expected path; `vm_playbook_assignments` updated; zero `hvs.*` in porch journal (conditional pass — see Retro/FIX-002 for inventory-generation gap)
+- [x] `Tasks/0010-TASK.md` — **Phase 10**: Write Results/RESULT.md + Retro/LESSONS.md; hv_ship
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
