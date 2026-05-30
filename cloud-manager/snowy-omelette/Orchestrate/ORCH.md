@@ -16,11 +16,11 @@ Check the box when the task is implemented AND its test passes.
 - [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status; confirm `snowy-omelette` across all repos
 - [x] `Tasks/0001-TASK.md` — **Phase 1**: `AddVmEvents` migration, `VmEvent` entity, DbContext mapping, public_id wiring
 - [x] `Tasks/0002-TASK.md` — **Phase 2**: `IVmEventService` / `VmEventService` (`RecordEventAsync`, `GetTimelineByVmPublicIdAsync`)
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: wire `created`, `destroy_requested`, `ip_address_updated` into existing `VirtualMachineService` methods
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: wire `created`, `destroy_requested`, `ip_address_updated` into existing `VirtualMachineService` methods
 - [x] `Tasks/0004-TASK.md` — **Phase 4**: OrchestrationCompletionQueue consumer emits `teardown_succeeded` / `teardown_failed`
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: `RetryTeardownAsync` + `POST /api/v1/vm/{publicId}/retry-teardown` (400 unless last terminal event is `teardown_failed`)
-- [ ] `Tasks/0006-TASK.md` — **Phase 6**: `GET /api/v1/vm/{publicId}/events?take=100`
-- [ ] `Tasks/0007-TASK.md` — **Phase 7**: remove force-delete endpoint + `IVirtualMachineService.ForceDelete…` + service method from cloud-manager-api
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: `RetryTeardownAsync` + `POST /api/v1/vm/{publicId}/retry-teardown` (400 unless last terminal event is `teardown_failed`)
+- [x] `Tasks/0006-TASK.md` — **Phase 6**: `GET /api/v1/vm/{publicId}/events?take=100`
+- [x] `Tasks/0007-TASK.md` — **Phase 7**: remove force-delete endpoint + `IVirtualMachineService.ForceDelete…` + service method from cloud-manager-api
 - [x] `Tasks/0008-TASK.md` — **Phase 8**: remove `cloud_vm_force_delete` tool registration + handler from cloud-manager-mcp
 - [ ] `Tasks/0009-TASK.md` — **Phase 9**: cloud-manager-web — VM activity timeline view on VM detail page
 - [ ] `Tasks/0010-TASK.md` — **Phase 10**: cloud-manager-web — replace force-delete button with conditional `Retry teardown` action
