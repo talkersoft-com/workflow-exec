@@ -24,7 +24,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0008-TASK.md` — **Phase 8**: remove `cloud_vm_force_delete` tool registration + handler from cloud-manager-mcp
 - [x] `Tasks/0009-TASK.md` — **Phase 9**: cloud-manager-web — VM activity timeline view on VM detail page
 - [x] `Tasks/0010-TASK.md` — **Phase 10**: cloud-manager-web — replace force-delete button with conditional `Retry teardown` action
-- [ ] `Tasks/0011-TASK.md` — **Phase 11**: E2E verify — create → destroy → observe terminal event; trigger retry on failed teardown; observe follow-up event
+- [x] `Tasks/0011-TASK.md` — **Phase 11**: E2E verify — create → destroy → observe terminal event; trigger retry on failed teardown; observe follow-up event
 - [ ] `Tasks/0012-TASK.md` — **Phase 12**: write `Results/RESULT.md` + `Retro/LESSONS.md`; `hv_ship`
 
 ## Execution steps
