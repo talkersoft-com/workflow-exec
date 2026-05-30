@@ -22,11 +22,11 @@ Read these before Task 0000:
 Check the box when the task is implemented AND its test passes.
 
 - [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status, confirm `minty-rooster` across all 15 repos
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: audit + harden shared API client wrapper (camelCase enforcement, 4xx surfacing)
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: implement `cloud_vm_update`
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: implement `cloud_vm_ip_address_update`
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: implement `cloud_vm_events`
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: coverage assertion — every VM-controller endpoint either has a tool or is explicitly excluded
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: audit + harden shared API client wrapper (camelCase enforcement, 4xx surfacing)
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: implement `cloud_vm_update`
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: implement `cloud_vm_ip_address_update`
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: implement `cloud_vm_events`
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: coverage assertion — every VM-controller endpoint either has a tool or is explicitly excluded
 - [ ] `Tasks/0006-TASK.md` — **Phase 6**: build + deploy verify per `@cloud-manager-deploy` (api/web smoke tests, mcp dist built but NOT reloaded)
 - [ ] `Tasks/0007-TASK.md` — **Final phase**: write `Results/RESULT.md` + `Retro/LESSONS.md`, then `hv_ship`
 
