@@ -29,6 +29,45 @@ Read these before Task 0000:
    e. On pass: check the box, move to the next task
 3. When every box is checked, the workflow is complete
 
+## ⚠️ DO NOT USE hv MCP tools to ship this workflow
+
+This workflow fixes the very bug that makes `hv_ship`, `hv_next`, and `hv_status` unreliable against a `hive` target branch. Using those tools during execution will hit the broken behaviour you are fixing.
+
+**Ship manually instead:**
+
+```bash
+# For hive-deck-pro repo:
+cd /Users/talker/workspace/hive-deck-pro/hive-deck-pro
+git add -A && git commit -m "add per-deck branch field, remove global target branch config"
+git push origin gritty-doberman
+gh pr create --base hive --head gritty-doberman \
+  --title "Add per-deck branch field, remove global target branch config" --body ""
+gh pr merge --merge
+
+# For workflow-configuration repo:
+cd /Users/talker/workspace/hive-deck-pro/workflow-configuration
+git add -A && git commit -m "add branch: hive to deck YAMLs, remove global target branch config"
+git push origin gritty-doberman
+gh pr create --base hive --head gritty-doberman \
+  --title "Add branch: hive to deck YAMLs, remove global target branch config" --body ""
+gh pr merge --merge
+
+# For workflow-exec (results + retro):
+cd /Users/talker/workspace/hive-deck-pro/planning/workflow-exec
+git add -A && git commit -m "results: per-deck branch field"
+git push origin gritty-doberman
+gh pr create --base hive --head gritty-doberman \
+  --title "results: per-deck branch field" --body ""
+gh pr merge --merge
+```
+
+After all PRs are merged, rebuild and install:
+```bash
+cd /Users/talker/workspace/hive-deck-pro/hive-deck-pro && make install
+```
+
+Then use `hv_next` **only after the binary is rebuilt** — the new binary will handle the transition correctly.
+
 ## Autonomous execution
 
 ```
