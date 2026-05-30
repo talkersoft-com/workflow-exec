@@ -13,7 +13,7 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status; confirm `snowy-omelette` across all repos
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status; confirm `snowy-omelette` across all repos
 - [x] `Tasks/0001-TASK.md` — **Phase 1**: `AddVmEvents` migration, `VmEvent` entity, DbContext mapping, public_id wiring
 - [x] `Tasks/0002-TASK.md` — **Phase 2**: `IVmEventService` / `VmEventService` (`RecordEventAsync`, `GetTimelineByVmPublicIdAsync`)
 - [x] `Tasks/0003-TASK.md` — **Phase 3**: wire `created`, `destroy_requested`, `ip_address_updated` into existing `VirtualMachineService` methods
@@ -25,7 +25,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0009-TASK.md` — **Phase 9**: cloud-manager-web — VM activity timeline view on VM detail page
 - [x] `Tasks/0010-TASK.md` — **Phase 10**: cloud-manager-web — replace force-delete button with conditional `Retry teardown` action
 - [x] `Tasks/0011-TASK.md` — **Phase 11**: E2E verify — create → destroy → observe terminal event; trigger retry on failed teardown; observe follow-up event
-- [ ] `Tasks/0012-TASK.md` — **Phase 12**: write `Results/RESULT.md` + `Retro/LESSONS.md`; `hv_ship`
+- [x] `Tasks/0012-TASK.md` — **Phase 12**: write `Results/RESULT.md` + `Retro/LESSONS.md`; `hv_ship`
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
