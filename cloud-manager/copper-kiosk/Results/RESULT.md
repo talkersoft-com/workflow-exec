@@ -9,9 +9,9 @@ SHIPPED
 ## Pull Requests
 | Repo | PR | Status |
 |------|----|--------|
-| `cloud-manager-web` | _pending hv_ship_ | |
-| `workflow-plans` | _pending hv_ship_ | |
-| `workflow-exec` | _pending hv_ship_ | |
+| `cloud-manager-web` | [#17](https://github.com/talkersoft-com/cloud-manager-web/pull/17) | merged |
+| `workflow-plans` | [#34](https://github.com/talkersoft-com/workflow-plans/pull/34) | merged |
+| `workflow-exec` | [#42](https://github.com/talkersoft-com/workflow-exec/pull/42) | merged |
 
 ## What shipped (cloud-manager-web ONLY — zero backend diffs)
 - **Plumbing** — `api.ts` blueprint CRUD/lifecycle/ordered-playbook + marketplace list/instantiate
