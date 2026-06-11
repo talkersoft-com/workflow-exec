@@ -13,7 +13,7 @@ direct attach/apply behavior is unchanged.
 
 ## Inputs
 Read these before Task 0000:
-- `../exec.md`
+- `../init.md`
 - `../deck.md`
 - `../../../workflow-plans/cloud-manager/lucky-engineblock/PLAN.md`
 - `../../common/toolkit/hive-deck.md`
