@@ -1,4 +1,4 @@
-# Orchestration: cloud-manager/striped-blacksmith
+# Orchestration: cloud-manager/lucky-engineblock
 
 ## Objective
 
@@ -21,7 +21,7 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status; confirm `striped-blacksmith` across all repos
+- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
 - [ ] `Tasks/0001-TASK.md` — **Phase 1**: data model — entities, prefixes, DbContext, reversible migration, seeds (jammy, postgres-jammy), `marketplace` feature flag
 - [ ] `Tasks/0002-TASK.md` — **Phase 2**: Blueprint + Marketplace controllers/services — CRUD, lifecycle, ordered playbooks, listing, instantiate (MVP: assignments + provision)
 - [ ] `Tasks/0003-TASK.md` — **Phase 3**: BlueprintRunSequencer — ordered auto-run on provision-complete / run-succeeded writebacks, stop-on-failure + events
@@ -42,7 +42,7 @@ Check the box when the task is implemented AND its test passes.
 
 Call the following MCP tool to begin execution:
 ```
-hv_orchestrate_run  deck: "cloud-manager"  branch: "striped-blacksmith"
+hv_orchestrate_run  deck: "cloud-manager"  branch: "lucky-engineblock"
 ```
 
 Or type in the prompt:

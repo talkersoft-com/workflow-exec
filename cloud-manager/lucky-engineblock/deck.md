@@ -13,20 +13,27 @@
 Repos not listed will be on the feature branch but skipped by hv_ship.
 **Must NOT change:** cloud-manager-web (plan 2), vorch-lib, vorch-service, porch.
 
+## Orchestration id (plan codename)
+`lucky-engineblock`
+
 ## Branch
-`striped-blacksmith`
+TBD — created by Task 0000 at execution time; record the generated name here.
 
 ## Initialize (Task 0000)
 ```
 hv_status  deck: "cloud-manager"
+hv_init    deck: "cloud-manager"
 ```
-Deck was already transitioned to `striped-blacksmith` at approval time — Task 0000 verifies state
-only; do NOT run hv_init/hv_next unless hv_status shows the deck is not on `striped-blacksmith`.
+If already provisioned on a clean feature branch with all PRs merged:
+```
+hv_status  deck: "cloud-manager"
+hv_next    deck: "cloud-manager"
+```
 
 ## Ship
 ```
 hv_ship  deck: "cloud-manager"
          message: "feat: marketplace backend — blueprints, marketplace API, run sequencer, MCP tools"
-         title:   "Marketplace backend (lucky-engineblock / striped-blacksmith)"
+         title:   "Marketplace backend (lucky-engineblock)"
          stage:   "exec"
 ```
