@@ -16,7 +16,7 @@
 workflow-fragments, workflow-plans (beyond nothing — no findings docs in this plan).
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`fragrant-hideaway` — created by Task 0000 via hv_next on 2026-06-11.
 
 ## Initialize (Task 0000)
 ```
