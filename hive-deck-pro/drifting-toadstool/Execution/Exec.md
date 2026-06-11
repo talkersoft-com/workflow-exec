@@ -20,11 +20,11 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: token engine — expandPath + config path keys + mcps.yaml tokens
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: shared layer — Setup.DeckConfig, layerPaths, per-file fallback, union scans
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: machine identity via HV_PROFILE + docs
-- [ ] `Tasks/0004-TASK.md` — **Final phase**: golden back-compat + two-layer matrix, rebuild artifacts, Results + Retro/LESSONS, then hv_ship
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: token engine — expandPath + config path keys + mcps.yaml tokens
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: shared layer — Setup.DeckConfig, layerPaths, per-file fallback, union scans
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: machine identity via HV_PROFILE + docs
+- [x] `Tasks/0004-TASK.md` — **Final phase**: golden back-compat + two-layer matrix, rebuild artifacts, Results + Retro/LESSONS, then hv_ship
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
