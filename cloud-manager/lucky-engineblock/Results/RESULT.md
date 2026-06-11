@@ -12,9 +12,9 @@ SHIPPED
 ## Pull Requests
 | Repo | PR | Status |
 |------|----|--------|
-| `cloud-manager-api` | TBD — filled from hv_ship output | — |
-| `cloud-manager-mcp` | TBD — filled from hv_ship output | — |
-| `workflow-exec` | TBD — filled from hv_ship output | — |
+| `cloud-manager-api` | [#27](https://github.com/talkersoft-com/cloud-manager-api/pull/27) | merged |
+| `cloud-manager-mcp` | [#24](https://github.com/talkersoft-com/cloud-manager-mcp/pull/24) | merged |
+| `workflow-exec` | [#38](https://github.com/talkersoft-com/workflow-exec/pull/38) | merged |
 
 ## What shipped
 - **marketplace schema** — `Blueprint` (`bp_`, soft-delete, Draft/Published/Archived),
