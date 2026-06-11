@@ -26,7 +26,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0003-TASK.md` — **Phase 3**: blueprint builder — compose, reorder, vars, publish/archive
 - [x] `Tasks/0004-TASK.md` — **Phase 4**: VM provenance + live run-chain panel (SignalR)
 - [x] `Tasks/0005-TASK.md` — **Phase 5**: vorch/porch status-surface assessment → findings doc only
-- [ ] `Tasks/0006-TASK.md` — **Final phase**: deploy web, full e2e + regression, Results + Retro/LESSONS, then hv_ship
+- [x] `Tasks/0006-TASK.md` — **Final phase**: deploy web, full e2e + regression, Results + Retro/LESSONS, then hv_ship
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
