@@ -1,0 +1,16 @@
+# Task 0000 — Initialize Workspace
+
+## Goal
+Verify the workspace is clean and create the feature branch across all repos in the deck.
+
+## Steps
+1. Run `hv_status` on the deck (see `../deck.md` for the exact call)
+2. If all repos are clean and on the default branch → run `hv_init`
+3. If all repos are clean and on a feature branch with all PRs merged → run `hv_next`
+4. If any repo is dirty → STOP. Investigate before proceeding.
+   - Exception: dirty repo with a merged PR → hv_stash → hv_next → hv_unstash
+5. Run `hv_status` again to confirm all repos are on the new feature branch, all clean
+6. Record the generated branch name in `../deck.md`
+
+## Definition of done
+All repos on the new feature branch, all clean. Branch name recorded in deck.md.
