@@ -17,7 +17,7 @@ Repos not listed will be on the feature branch but skipped by hv_ship.
 **Must NOT change:** cloud-manager-api, cloud-manager-mcp, vorch-lib, vorch-service, porch.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`stringy-nymph` — created by Task 0000 via hv_next on 2026-06-11.
 
 ## Initialize (Task 0000)
 ```

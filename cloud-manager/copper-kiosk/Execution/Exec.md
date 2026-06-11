@@ -20,12 +20,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: plumbing — api client, Redux slices, flag wiring, gated routes + nav
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: marketplace storefront — cards + instantiate flow → VM detail
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: blueprint builder — compose, reorder, vars, publish/archive
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: VM provenance + live run-chain panel (SignalR)
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: vorch/porch status-surface assessment → findings doc only
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: plumbing — api client, Redux slices, flag wiring, gated routes + nav
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: marketplace storefront — cards + instantiate flow → VM detail
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: blueprint builder — compose, reorder, vars, publish/archive
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: VM provenance + live run-chain panel (SignalR)
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: vorch/porch status-surface assessment → findings doc only
 - [ ] `Tasks/0006-TASK.md` — **Final phase**: deploy web, full e2e + regression, Results + Retro/LESSONS, then hv_ship
 
 ## Execution steps
