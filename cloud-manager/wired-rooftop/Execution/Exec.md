@@ -16,7 +16,7 @@ Check the box when the task is implemented AND its test passes.
 
 - [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
 - [x] `Tasks/0001-TASK.md` — **Phase 1**: list-row Edit → composer; create → navigate to composer
-- [ ] `Tasks/0002-TASK.md` — **Final phase**: deploy web, playwright verify + regression, Results + Retro/LESSONS, then hv_ship
+- [x] `Tasks/0002-TASK.md` — **Final phase**: deploy web, playwright verify + regression, Results + Retro/LESSONS, then hv_ship
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000

@@ -42,9 +42,8 @@ blueprint lands the user directly in its composer.
 - TC-004: PR links recorded below; merge status reported by the operator-facing summary.
 
 ## Pull requests
-Recorded after hv_ship (see ship output in the execution transcript):
-- cloud-manager-web — Blueprint composer navigation (wired-rooftop)
-- workflow-exec — orchestration runtime files
+- cloud-manager-web PR #18 — https://github.com/talkersoft-com/cloud-manager-web/pull/18 (merged)
+- workflow-exec PR #47 — https://github.com/talkersoft-com/workflow-exec/pull/47 (merged)
 
 ## Artifacts
 - Screenshot: `.playwright-mcp` output `wired-rooftop-blueprints-list-edit-affordance.png`
