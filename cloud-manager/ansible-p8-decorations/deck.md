@@ -17,7 +17,9 @@ merged). **Workflow `feature@cloud-manager`.**
 the P7 editor component itself — P8 plugs into C-ED extension points, it does not edit them.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`fawn-parrotfish` — created by Task 0000 (hv_next) on 2026-06-12. Execution STOPPED at
+Task 0000 step 2: prerequisites P4 (C-VAR) and P5 (C-RES) are not merged to main
+(see `Retro/FIX-0000.md`).
 
 ## Initialize (Task 0000)
 ```
