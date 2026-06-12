@@ -16,7 +16,7 @@
 **Must NOT change:** cloud-manager-web, vorch-lib, vorch-service/porch.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`clawed-mainmast` — created by Task 0000 (hv_next from origin/main, 2026-06-11).
 
 ## Initialize (Task 0000)
 ```
