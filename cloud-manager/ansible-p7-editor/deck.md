@@ -17,7 +17,7 @@ ledger order). **Workflow `feature@cloud-manager`.**
 web-only plan; server lint findings are consumed if present, never required.
 
 ## Branch
-TBD — created by Task 0000 (hv_next) at execution time; record the generated name here.
+`quenching-hogshead` — created by Task 0000 (hv_next) on 2026-06-12.
 
 ## Initialize (Task 0000)
 ```

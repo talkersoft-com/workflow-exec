@@ -33,12 +33,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: CM6 foundation — packages, `AnsibleYamlEditor` with legacy props parity, theme from SCSS tokens, lazy-chunk budget
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: YAML + Ansible semantics — lang-yaml integration, keyword/module overlay, indent guides
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: embedded Jinja2 — in-repo Lezer template grammar, nested mounting in scalars, highlight tags
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: fragments + diagnostics — fragmentMode wrap/map, client parse lint, `diagnostics` prop merge, gutter/panel
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: extension points + regression — decorations/hoverProvider compartments (inert), both consumer pages swapped, dirty/save/beforeunload behavior byte-identical
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: CM6 foundation — packages, `AnsibleYamlEditor` with legacy props parity, theme from SCSS tokens, lazy-chunk budget
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: YAML + Ansible semantics — lang-yaml integration, keyword/module overlay, indent guides
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: embedded Jinja2 — in-repo Lezer template grammar, nested mounting in scalars, highlight tags
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: fragments + diagnostics — fragmentMode wrap/map, client parse lint, `diagnostics` prop merge, gutter/panel
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: extension points + regression — decorations/hoverProvider compartments (inert), both consumer pages swapped, dirty/save/beforeunload behavior byte-identical
 - [ ] `Tasks/0006-TASK.md` — **Final phase**: deploy web → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
