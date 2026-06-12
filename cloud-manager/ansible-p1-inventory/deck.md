@@ -17,7 +17,7 @@
 changes there.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`bladed-cantaloupe` — created by hv_next at execution start (Task 0000), 2026-06-11.
 
 ## Initialize (Task 0000)
 ```
