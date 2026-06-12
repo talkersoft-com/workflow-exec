@@ -39,7 +39,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0003-TASK.md` — **Phase 3**: embedded Jinja2 — in-repo Lezer template grammar, nested mounting in scalars, highlight tags
 - [x] `Tasks/0004-TASK.md` — **Phase 4**: fragments + diagnostics — fragmentMode wrap/map, client parse lint, `diagnostics` prop merge, gutter/panel
 - [x] `Tasks/0005-TASK.md` — **Phase 5**: extension points + regression — decorations/hoverProvider compartments (inert), both consumer pages swapped, dirty/save/beforeunload behavior byte-identical
-- [ ] `Tasks/0006-TASK.md` — **Final phase**: deploy web → Results + Retro/LESSONS → hv_ship stage "exec"
+- [x] `Tasks/0006-TASK.md` — **Final phase**: deploy web → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
