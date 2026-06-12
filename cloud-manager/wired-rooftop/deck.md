@@ -15,7 +15,7 @@
 **Must NOT change:** everything else.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`brittle-peach` — created by Task 0000 via hv_next on 2026-06-11.
 
 ## Initialize (Task 0000)
 ```
