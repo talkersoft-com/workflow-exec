@@ -43,7 +43,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0003-TASK.md` — **Phase 3**: porch lint consumer — vorch-lib `PlaybookLintMessage` + queue, lint handler, findings POST, terminal handling
 - [x] `Tasks/0004-TASK.md` — **Phase 4**: porch chunk streaming — sequenced chunk flush beside the existing tail PATCH; ordering + redaction tests
 - [x] `Tasks/0005-TASK.md` — **Phase 5**: health probe (`ansible-lint` → `ansible-studio`), MCP tools, tail-PATCH parity regression
-- [ ] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api + mcp + porch → Results + Retro/LESSONS → hv_ship stage "exec"
+- [x] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api + mcp + porch → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
