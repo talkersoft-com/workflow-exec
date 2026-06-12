@@ -21,8 +21,13 @@ applied. No porch/vorch/mcp/web changes.
 ## PR table
 | Repo | PR | Status |
 |------|----|--------|
-| cloud-manager-api | TBD (filled after hv_ship) | |
-| workflow-exec | TBD (filled after hv_ship) | |
+| cloud-manager-api | [#30](https://github.com/talkersoft-com/cloud-manager-api/pull/30) | merged |
+| workflow-exec | [#57](https://github.com/talkersoft-com/workflow-exec/pull/57) | merged |
+
+(No PR for workflow-plans — the P3 plan folder was already on main. No PR for
+cloud-manager-mcp, cloud-manager-web, vorch-lib, or vorch-service — deck guardrail held.
+PR-table fill committed on `serene-drydock`: the deck auto-merges and auto-transitions on
+ship, so the merged `cushiony-veranda` branch could not be amended.)
 
 ## Phase summary
 | Phase | What landed | Test |
