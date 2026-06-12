@@ -25,7 +25,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0003-TASK.md` — **Phase 3**: IInventoryEventService; event writes on every mutation; event list endpoint
 - [x] `Tasks/0004-TASK.md` — **Phase 4**: MCP `inventory.ts` module + profile registration + dist rebuild
 - [x] `Tasks/0005-TASK.md` — **Phase 5**: regression (existing flows byte-identical) + API smoke + repo docs
-- [ ] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api + mcp → Results + Retro/LESSONS → hv_ship stage "exec"
+- [x] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api + mcp → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000

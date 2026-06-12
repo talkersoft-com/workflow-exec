@@ -12,12 +12,12 @@
 
 ## PR table
 
-| Repo | PR |
-|------|----|
-| cloud-manager-api | (filled after hv_ship) |
-| cloud-manager-mcp | (filled after hv_ship) |
-| workflow-exec | (filled after hv_ship) |
-| workflow-plans | (filled after hv_ship) |
+| Repo | PR | Status |
+|------|----|--------|
+| cloud-manager-api | [#28](https://github.com/talkersoft-com/cloud-manager-api/pull/28) | merged |
+| cloud-manager-mcp | [#25](https://github.com/talkersoft-com/cloud-manager-mcp/pull/25) | merged |
+| workflow-exec | [#51](https://github.com/talkersoft-com/workflow-exec/pull/51) | merged |
+| workflow-plans | [#41](https://github.com/talkersoft-com/workflow-plans/pull/41) | merged |
 
 ## Phase summary
 
