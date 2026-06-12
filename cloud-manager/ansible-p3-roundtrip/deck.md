@@ -16,7 +16,7 @@
 sidecar decision (PLAN.md) exists precisely so porch stays untouched.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`cushiony-veranda` — created by Task 0000 via hv_next on 2026-06-12.
 
 ## Initialize (Task 0000)
 ```
