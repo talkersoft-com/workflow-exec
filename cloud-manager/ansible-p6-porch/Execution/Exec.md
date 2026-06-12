@@ -37,12 +37,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: API — run `Mode` column, `plint` + `logc` entities/migrations, lint/chunk endpoints, `playbook-lints` publish, run DTO `mode`
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: porch check mode — `--cmdline "--check"` off the fetched run mode, check event, e2e against a real VM
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: porch lint consumer — vorch-lib `PlaybookLintMessage` + queue, lint handler, findings POST, terminal handling
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: porch chunk streaming — sequenced chunk flush beside the existing tail PATCH; ordering + redaction tests
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: health probe (`ansible-lint` → `ansible-studio`), MCP tools, tail-PATCH parity regression
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: API — run `Mode` column, `plint` + `logc` entities/migrations, lint/chunk endpoints, `playbook-lints` publish, run DTO `mode`
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: porch check mode — `--cmdline "--check"` off the fetched run mode, check event, e2e against a real VM
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: porch lint consumer — vorch-lib `PlaybookLintMessage` + queue, lint handler, findings POST, terminal handling
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: porch chunk streaming — sequenced chunk flush beside the existing tail PATCH; ordering + redaction tests
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: health probe (`ansible-lint` → `ansible-studio`), MCP tools, tail-PATCH parity regression
 - [ ] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api + mcp + porch → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps

@@ -20,7 +20,7 @@ only series plan that touches vorch repos; additive-only message rules apply.
 name, or status string.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`ebony-porpoise` — created by Task 0000 (hv_next) at execution time.
 
 ## Initialize (Task 0000)
 ```
