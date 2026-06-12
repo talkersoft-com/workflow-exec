@@ -17,11 +17,11 @@ of truth; no code path recomposes records to YAML (structured-edit PATCH deferre
 `clawed-mainmast` (created by Task 0000 via hv_next from origin/main; recorded in deck.md)
 
 ## PR table
-| Repo | PR |
-|------|----|
-| cloud-manager-api | TBD (filled after hv_ship) |
-| cloud-manager-mcp | TBD (filled after hv_ship) |
-| workflow-exec | TBD (filled after hv_ship) |
+| Repo | PR | Status |
+|------|----|--------|
+| cloud-manager-api | [#29](https://github.com/talkersoft-com/cloud-manager-api/pull/29) | merged |
+| cloud-manager-mcp | [#26](https://github.com/talkersoft-com/cloud-manager-mcp/pull/26) | merged |
+| workflow-exec | [#54](https://github.com/talkersoft-com/workflow-exec/pull/54) | merged |
 
 ## Phase summary
 | Phase | What landed | Test |
