@@ -25,12 +25,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: sidecar service — FastAPI + ruamel decompose/recompose/healthz, Dockerfile, golden-file corpus
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: `ydoc` entity + migration; API proxy routes `api/v1/roundtrip/*`; write-time fidelity check on revision cut
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: structured edits — PATCH play/task endpoints → edit list → splice → existing revision path
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: P2 integration — decomposer prefers sidecar span map; spans flow into `ptask.SourceSpan`
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: regression + docs — raw-text save path byte-identical; corpus green; deployment docs
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: sidecar service — FastAPI + ruamel decompose/recompose/healthz, Dockerfile, golden-file corpus
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: `ydoc` entity + migration; API proxy routes `api/v1/roundtrip/*`; write-time fidelity check on revision cut
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: structured edits — PATCH play/task endpoints → edit list → splice → existing revision path
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: P2 integration — decomposer prefers sidecar span map; spans flow into `ptask.SourceSpan`
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: regression + docs — raw-text save path byte-identical; corpus green; deployment docs
 - [ ] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
