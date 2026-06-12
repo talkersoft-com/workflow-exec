@@ -14,8 +14,11 @@ mismatch crashing `AnsibleRoleDetailPage` on real data) — see Retro/FIX-001.md
 ## PR table
 | Repo | PR | Status |
 |------|----|--------|
-| cloud-manager-web | TBD (filled after hv_ship) | — |
-| workflow-exec | TBD (filled after hv_ship) | — |
+| cloud-manager-web | [#19](https://github.com/talkersoft-com/cloud-manager-web/pull/19) | merged |
+| workflow-exec | [#67](https://github.com/talkersoft-com/workflow-exec/pull/67) | merged |
+
+(PR-table fill ships as a follow-up PR on `blessed-countryside` — the deck
+auto-merges and auto-transitions on ship.)
 
 ## Phase summary
 | Phase | Delivered |
