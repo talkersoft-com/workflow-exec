@@ -19,12 +19,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: entities + EF configs + migration + `ansible-studio` flag seed
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: DTOs/mappers, services, controllers; cycle check; flag gating
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: IInventoryEventService; event writes on every mutation; event list endpoint
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: MCP `inventory.ts` module + profile registration + dist rebuild
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: regression (existing flows byte-identical) + API smoke + repo docs
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: entities + EF configs + migration + `ansible-studio` flag seed
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: DTOs/mappers, services, controllers; cycle check; flag gating
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: IInventoryEventService; event writes on every mutation; event list endpoint
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: MCP `inventory.ts` module + profile registration + dist rebuild
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: regression (existing flows byte-identical) + API smoke + repo docs
 - [ ] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api + mcp → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
