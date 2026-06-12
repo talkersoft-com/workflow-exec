@@ -17,7 +17,7 @@
 API-side; porch keeps receiving exactly the merged inputs it receives today.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`mushy-walleye` — created by Task 0000 (hv_next from origin/main, 2026-06-12), all 18 repos.
 
 ## Initialize (Task 0000)
 ```
