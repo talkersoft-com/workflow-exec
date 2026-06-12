@@ -23,12 +23,12 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Part A record entities (`play` `ptask` `hdlr` `vblk`) + EF configs + migration
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Part A decomposer — YamlDotNet `IPlaybookDecomposer`, transactional rebuild, failure marking, save-path hooks
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Part B edge graph — `edge` entity + migration; edge writes from decomposer; role-dep cycle check (400)
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: Part B APIs + backfill — usedBy/graph/read endpoints, decompose-all, failure events
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: MCP `graph.ts` module + profile registration + regression (existing flows byte-identical) + backfill against seed data
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Part A record entities (`play` `ptask` `hdlr` `vblk`) + EF configs + migration
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Part A decomposer — YamlDotNet `IPlaybookDecomposer`, transactional rebuild, failure marking, save-path hooks
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Part B edge graph — `edge` entity + migration; edge writes from decomposer; role-dep cycle check (400)
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: Part B APIs + backfill — usedBy/graph/read endpoints, decompose-all, failure events
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: MCP `graph.ts` module + profile registration + regression (existing flows byte-identical) + backfill against seed data
 - [ ] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api + mcp → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
