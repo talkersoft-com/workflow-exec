@@ -31,7 +31,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0003-TASK.md` — **Phase 3**: structured edits — PATCH play/task endpoints → edit list → splice → existing revision path
 - [x] `Tasks/0004-TASK.md` — **Phase 4**: P2 integration — decomposer prefers sidecar span map; spans flow into `ptask.SourceSpan`
 - [x] `Tasks/0005-TASK.md` — **Phase 5**: regression + docs — raw-text save path byte-identical; corpus green; deployment docs
-- [ ] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api → Results + Retro/LESSONS → hv_ship stage "exec"
+- [x] `Tasks/0006-TASK.md` — **Final phase**: migration → deploy api → Results + Retro/LESSONS → hv_ship stage "exec"
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
