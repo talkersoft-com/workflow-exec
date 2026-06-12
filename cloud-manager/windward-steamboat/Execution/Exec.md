@@ -17,11 +17,11 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: research current state; write ANSIBLE-EPIC-CONTRACTS.md
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: write plans P1–P5 (backend/data series)
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: write plans P6–P9 (porch + web series)
-- [ ] `Tasks/0004-TASK.md` — **Final phase**: ledger + cross-consistency + coverage map; ship stage "plan"; announce PR and STOP
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: research current state; write ANSIBLE-EPIC-CONTRACTS.md
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: write plans P1–P5 (backend/data series)
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: write plans P6–P9 (porch + web series)
+- [x] `Tasks/0004-TASK.md` — **Final phase**: ledger + cross-consistency + coverage map; ship stage "plan"; announce PR and STOP
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000

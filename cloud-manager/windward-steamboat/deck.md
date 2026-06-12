@@ -15,7 +15,7 @@
 **Must NOT change:** any code repo.
 
 ## Branch
-TBD — created by Task 0000 at execution time; record the generated name here.
+`enjoyable-tegu` — created by Task 0000 via hv_next (all 18 repos transitioned from origin/main).
 
 ## Initialize (Task 0000)
 ```
