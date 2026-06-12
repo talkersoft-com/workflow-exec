@@ -14,12 +14,15 @@
 
 | Repo | PR | Status |
 |------|----|--------|
-| cloud-manager-api | TBD (filled after hv_ship) | |
-| vorch-lib | TBD | |
-| vorch-service | TBD | |
-| cloud-manager-mcp | TBD | |
-| workflow-exec | TBD | |
-| workflow-plans | TBD | |
+| cloud-manager-api | [#31](https://github.com/talkersoft-com/cloud-manager-api/pull/31) | merged |
+| vorch-lib | [#6](https://github.com/talkersoft-com/vorch-lib/pull/6) | merged |
+| vorch-service | [#16](https://github.com/talkersoft-com/vorch-service/pull/16) | merged |
+| cloud-manager-mcp | [#27](https://github.com/talkersoft-com/cloud-manager-mcp/pull/27) | merged |
+| workflow-exec | [#64](https://github.com/talkersoft-com/workflow-exec/pull/64) | merged |
+| workflow-plans | no PR — plan folder already on main; this workflow changed nothing there | — |
+
+(Table filled post-ship on the follow-up branch `venetianish-rooftop` — hv_ship auto-merged
+the `ebony-porpoise` PRs and transitioned the deck before the fill could be amended in-place.)
 
 ## Phase summary
 
