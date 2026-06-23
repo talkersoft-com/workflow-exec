@@ -14,10 +14,10 @@ is OUT OF SCOPE (follow-up workflow) — only the schema seams land here.
 - `../../../../workflow-plans/cloud-manager/sour-lemonade/PLAN.md`
 
 ## Task list
-- [ ] `Tasks/0000-TASK.md` — Phase 0: hv_status + hv_init/hv_next
-- [ ] `Tasks/0001-TASK.md` — Phase 1: API entities + migration + CRUD + attach endpoints
-- [ ] `Tasks/0002-TASK.md` — Phase 2: MCP tools
-- [ ] `Tasks/0003-TASK.md` — Phase 3: web Secret Bindings page + blueprint "Attached Secrets" UI
+- [x] `Tasks/0000-TASK.md` — Phase 0: hv_status + hv_init/hv_next
+- [x] `Tasks/0001-TASK.md` — Phase 1: API entities + migration + CRUD + attach endpoints
+- [x] `Tasks/0002-TASK.md` — Phase 2: MCP tools
+- [x] `Tasks/0003-TASK.md` — Phase 3: web Secret Bindings page + blueprint "Attached Secrets" UI
 - [ ] `Tasks/0004-TASK.md` — Phase 4: verify + build + deploy; then Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps

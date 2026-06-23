@@ -13,7 +13,8 @@
 Repos not listed will be on the feature branch but skipped by hv_integrate.
 
 ## Branch
-`sour-lemonade`
+Orchestration id: `sour-lemonade`
+Git execution branch (Task 0000): `trusted-jetplane`
 
 ## Initialize (Task 0000)
 ```
