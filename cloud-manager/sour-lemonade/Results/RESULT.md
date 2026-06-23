@@ -44,8 +44,15 @@ in Claude Code to reload `cloud-manager-mcp` and pick up the new `cloud_secret_b
 
 ## Pull Requests
 
-| Repo | PR |
-|------|----|
-| _populated below after `hv_integrate`_ | |
+All four PRs opened and **auto-merged** by `hv_integrate`; the deck auto-transitioned to the next
+branch (`bunched-seagull`).
 
-<!-- PR_LINKS -->
+| Repo | PR | Status |
+|------|----|--------|
+| cloud-manager-api | [#37](https://github.com/talkersoft-com/cloud-manager-api/pull/37) | merged |
+| cloud-manager-mcp | [#28](https://github.com/talkersoft-com/cloud-manager-mcp/pull/28) | merged |
+| cloud-manager-web | [#20](https://github.com/talkersoft-com/cloud-manager-web/pull/20) | merged |
+| workflow-exec (orchestration record) | [#76](https://github.com/talkersoft-com/workflow-exec/pull/76) | merged |
+
+> Note: this RESULT.md PR-table fill lands as a small follow-up `hv_integrate` on `bunched-seagull`,
+> since the URLs only exist after the first integrate (the three code PRs above are already merged).
