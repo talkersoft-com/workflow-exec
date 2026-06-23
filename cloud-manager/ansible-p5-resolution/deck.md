@@ -17,7 +17,8 @@
 API-side; porch keeps receiving exactly the merged inputs it receives today.
 
 ## Branch
-`mushy-walleye` — created by Task 0000 (hv_next from origin/main, 2026-06-12), all 18 repos.
+`country-hammockstand` — created by Task 0000 (hv_next from origin/main, 2026-06-12, second attempt;
+supersedes `mushy-walleye` from the first attempt that stopped at the series-order gate), all 18 repos.
 
 ## Initialize (Task 0000)
 ```
