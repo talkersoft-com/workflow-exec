@@ -18,7 +18,7 @@ is OUT OF SCOPE (follow-up workflow) — only the schema seams land here.
 - [x] `Tasks/0001-TASK.md` — Phase 1: API entities + migration + CRUD + attach endpoints
 - [x] `Tasks/0002-TASK.md` — Phase 2: MCP tools
 - [x] `Tasks/0003-TASK.md` — Phase 3: web Secret Bindings page + blueprint "Attached Secrets" UI
-- [ ] `Tasks/0004-TASK.md` — Phase 4: verify + build + deploy; then Results + Retro/LESSONS, then hv_integrate
+- [x] `Tasks/0004-TASK.md` — Phase 4: verify + build + deploy; then Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps
 1. Read all inputs before Task 0000.
