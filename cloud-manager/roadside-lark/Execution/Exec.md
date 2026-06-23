@@ -15,12 +15,12 @@ any unit/env file, `systemctl cat` clean, and an end-to-end VM provision still s
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — Phase 0: hv_status + hv_init/hv_next
-- [ ] `Tasks/0001-TASK.md` — Phase 1: cm-seed-secrets script (vm-infra/secret-management)
-- [ ] `Tasks/0002-TASK.md` — Phase 2: API AddKeyPerFile config provider
-- [ ] `Tasks/0003-TASK.md` — Phase 3: systemd unit wiring (+ vorch/porch RabbitMQ cred)
-- [ ] `Tasks/0004-TASK.md` — Phase 4: live cutover (backup -> seed -> redeploy -> restart -> strip plaintext)
-- [ ] `Tasks/0005-TASK.md` — Phase 5: verify (services up, systemctl cat clean, VM provisions); then Results + Retro/LESSONS, then hv_integrate
+- [x] `Tasks/0000-TASK.md` — Phase 0: hv_status + hv_init/hv_next
+- [x] `Tasks/0001-TASK.md` — Phase 1: cm-seed-secrets script (vm-infra/secret-management)
+- [x] `Tasks/0002-TASK.md` — Phase 2: API AddKeyPerFile config provider
+- [x] `Tasks/0003-TASK.md` — Phase 3: systemd unit wiring (+ vorch/porch RabbitMQ cred)
+- [x] `Tasks/0004-TASK.md` — Phase 4: live cutover (backup -> seed -> redeploy -> restart -> strip plaintext)
+- [x] `Tasks/0005-TASK.md` — Phase 5: verify (services up, systemctl cat clean, VM provisions); then Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps
 1. Read all inputs before starting Task 0000.
