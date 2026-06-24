@@ -17,11 +17,11 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: API — `Secret` + `VmSecretBinding` entities, nullable `secret_id` on `SecretBinding`, one reversible migration, Secret CRUD + create/delete state machine + path-lock
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: MCP — `cloud_secret_list / get / create / delete`
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Web — Secret Manager page (fixed-prefix create, guarded delete) + binding→managed-secret reference
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: Verify + build + deploy; write Results + Retro/LESSONS, then hv_integrate
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: API — `Secret` + `VmSecretBinding` entities, nullable `secret_id` on `SecretBinding`, one reversible migration, Secret CRUD + create/delete state machine + path-lock
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: MCP — `cloud_secret_list / get / create / delete`
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Web — Secret Manager page (fixed-prefix create, guarded delete) + binding→managed-secret reference
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: Verify + build + deploy; write Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
