@@ -13,7 +13,7 @@ source). Out of scope: `talkersoft-com/agent-arcade-api`. The `planning/*` repos
 plan + this scaffold. Repos not listed are on the feature branch but skipped by `hv_integrate`.
 
 ## Branch
-`TBD` — the execution branch is created at run time in Task 0000 and recorded here.
+`fineish-crankshaft` — execution branch created in Task 0000 (2026-06-24).
 
 ## Initialize (Task 0000)
 ```
