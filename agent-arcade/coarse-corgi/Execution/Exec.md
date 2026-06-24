@@ -23,7 +23,7 @@ Check the box when the task is implemented AND its test passes.
 - [x] `Tasks/0003-TASK.md` — **Phase 3**: Studio (React + Zustand), 1:1 against the same YAML — all reference screens rebuilt; CSS verbatim; no schema/main changes. NOTE: reference Studio has NO @-macro authoring UI (hand-edited YAML), so that test sub-item is N/A, not built. Live 1:1 deferred to 0007.
 - [x] `Tasks/0004-TASK.md` — **Phase 4**: Arcade foundation (machines + mitt + render + durable draft) — root machine + per-agent actors (durable draft, Node-verified), nav guards, mitt bus, IPC→XState seam, subscribe→DOM; index.html verbatim-except-entry; build green. CARRY TO 0007 PARITY: warn-on-exit/exit-confirm overlay, first-run tour, ? help overlay, rec-indicator not yet driven.
 - [x] `Tasks/0005-TASK.md` — **Phase 5**: Arcade dictation + recording-nav (send/lock, async-commit) — dictation machine (per-job actor) resolves on Go events; send/lock/Esc guards; async-commit Node-verified to land on the originating agent; build green. Machine observes Go events; main still routes the pane send (additive).
-- [ ] `Tasks/0006-TASK.md` — **Phase 6**: Arcade terminal surface (peek, sync, ⌘W shell, macros, ^C)
+- [x] `Tasks/0006-TASK.md` — **Phase 6**: Arcade terminal surface (peek, sync, ⌘W shell, macros, ^C) — terminalMachine (closed→peek→sync→shell) + controller; macros select/text/flag (compose 8/8); keyEventToBytes 17/17; shell pushes drive machine at one seam; non-zero wez exit → error state; build green. LIVE-RUN gaps for 0007: actual node-pty ⌘W spawn, xterm render/fit, getText cadence.
 - [ ] `Tasks/0007-TASK.md` — **Phase 7**: Parity pass + release smoke test; write Results + Retro/LESSONS, then hv_integrate → hv_release
 
 ## Execution steps
