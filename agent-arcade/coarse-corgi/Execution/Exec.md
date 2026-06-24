@@ -18,7 +18,7 @@ Read these before Task 0000:
 Check the box when the task is implemented AND its test passes.
 
 - [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: Scaffold + pipeline + Go + Electron shell (app launches, stubbed renderers)
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: Scaffold + pipeline + Go + Electron shell (app launches, stubbed renderers) — build green; pack verified; TC-002 GUI launch deferred to 0007 smoke test
 - [ ] `Tasks/0002-TASK.md` — **Phase 2**: Freeze the preload / IPC contract (incl. Go NDJSON seam)
 - [ ] `Tasks/0003-TASK.md` — **Phase 3**: Studio (React + Zustand), 1:1 against the same YAML
 - [ ] `Tasks/0004-TASK.md` — **Phase 4**: Arcade foundation (machines + mitt + render + durable draft)
