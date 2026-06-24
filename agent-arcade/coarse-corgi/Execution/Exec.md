@@ -19,7 +19,7 @@ Check the box when the task is implemented AND its test passes.
 
 - [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next
 - [x] `Tasks/0001-TASK.md` — **Phase 1**: Scaffold + pipeline + Go + Electron shell (app launches, stubbed renderers) — build green; pack verified; TC-002 GUI launch deferred to 0007 smoke test
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: Freeze the preload / IPC contract (incl. Go NDJSON seam)
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: Freeze the preload / IPC contract (incl. Go NDJSON seam) — docs/IPC.md written; Arcade now forwards Go NDJSON verbatim (dictation:event + onDictationEvent); wezterm exit codes surfaced
 - [ ] `Tasks/0003-TASK.md` — **Phase 3**: Studio (React + Zustand), 1:1 against the same YAML
 - [ ] `Tasks/0004-TASK.md` — **Phase 4**: Arcade foundation (machines + mitt + render + durable draft)
 - [ ] `Tasks/0005-TASK.md` — **Phase 5**: Arcade dictation + recording-nav (send/lock, async-commit)
