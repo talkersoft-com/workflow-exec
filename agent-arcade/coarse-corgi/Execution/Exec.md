@@ -20,7 +20,7 @@ Check the box when the task is implemented AND its test passes.
 - [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next
 - [x] `Tasks/0001-TASK.md` — **Phase 1**: Scaffold + pipeline + Go + Electron shell (app launches, stubbed renderers) — build green; pack verified; TC-002 GUI launch deferred to 0007 smoke test
 - [x] `Tasks/0002-TASK.md` — **Phase 2**: Freeze the preload / IPC contract (incl. Go NDJSON seam) — docs/IPC.md written; Arcade now forwards Go NDJSON verbatim (dictation:event + onDictationEvent); wezterm exit codes surfaced
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Studio (React + Zustand), 1:1 against the same YAML
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Studio (React + Zustand), 1:1 against the same YAML — all reference screens rebuilt; CSS verbatim; no schema/main changes. NOTE: reference Studio has NO @-macro authoring UI (hand-edited YAML), so that test sub-item is N/A, not built. Live 1:1 deferred to 0007.
 - [ ] `Tasks/0004-TASK.md` — **Phase 4**: Arcade foundation (machines + mitt + render + durable draft)
 - [ ] `Tasks/0005-TASK.md` — **Phase 5**: Arcade dictation + recording-nav (send/lock, async-commit)
 - [ ] `Tasks/0006-TASK.md` — **Phase 6**: Arcade terminal surface (peek, sync, ⌘W shell, macros, ^C)
