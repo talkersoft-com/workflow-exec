@@ -13,7 +13,7 @@
 Repos not listed will be on the feature branch but skipped by hv_integrate.
 
 ## Branch
-TBD — recorded at runtime in Task 0000 (the execution branch minted by hv_next/hv_init).
+`fortified-deadwood` — execution branch minted by hv_next in Task 0000 (2026-06-24, from origin/hive).
 
 ## Initialize (Task 0000)
 ```
