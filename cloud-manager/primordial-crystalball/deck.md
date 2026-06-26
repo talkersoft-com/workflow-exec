@@ -13,7 +13,7 @@
 Repos not listed will be on the feature branch but skipped by hv_integrate.
 
 ## Branch
-TBD — recorded at runtime in Task 0000 (the execution branch minted by hv_next/hv_init).
+`undertone-devilfish` — execution branch minted by hv_next in Task 0000 (2026-06-25), based on origin/hive across all 16 repos.
 
 ## Dependency
 **Requires workflow #1.5 (Secret Manager — `wheezy-cottonmouth`) merged first** (the `Secret`
