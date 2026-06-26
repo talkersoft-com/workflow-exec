@@ -22,13 +22,13 @@ not, STOP and surface that #1.5 hasn't landed.
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch; verify #1.5 schema present
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: API — `ReadKvSecretAsync` (KV v2) on IVaultClient/VaultClient
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: API — resolve attached bindings at instantiate → read Vault → resolved secrets
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: Contract — `Secrets` payload on VmCommandData (C#) + createvm.VM (Go), YAML lockstep
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: vorch — cloud-init `write_files` + first-boot `systemd-creds encrypt` + shred
-- [ ] `Tasks/0005-TASK.md` — **Phase 5**: API — populate `vm.vm_secret_bindings` on provision success
-- [ ] `Tasks/0006-TASK.md` — **Phase 6**: E2E + build + deploy; write Results + Retro/LESSONS, then hv_integrate
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch; verify #1.5 schema present
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: API — `ReadKvSecretAsync` (KV v2) on IVaultClient/VaultClient
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: API — resolve attached bindings at instantiate → read Vault → resolved secrets
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: Contract — `Secrets` payload on VmCommandData (C#) + createvm.VM (Go), YAML lockstep
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: vorch — cloud-init `write_files` + first-boot `systemd-creds encrypt` + shred
+- [x] `Tasks/0005-TASK.md` — **Phase 5**: API — populate `vm.vm_secret_bindings` on provision success
+- [x] `Tasks/0006-TASK.md` — **Phase 6**: E2E + build + deploy; write Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
