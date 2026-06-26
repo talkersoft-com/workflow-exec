@@ -19,10 +19,11 @@ all 16 repos). NOTE: `deck.md` originally pre-recorded `rakish-coldfront`; the w
 `hv_integrate` opens feature → hive PRs for the two repos with code changes (the planning repos carry
 the orchestration record). Links:
 
-| Repo | PR |
-|------|----|
-| cloud-manager-api | _see hv_integrate output / reported in chat_ |
-| cloud-manager-mcp | _see hv_integrate output / reported in chat_ |
+| Repo | PR | Status |
+|------|----|--------|
+| cloud-manager-api | https://github.com/talkersoft-com/cloud-manager-api/pull/40 | merged |
+| cloud-manager-mcp | https://github.com/talkersoft-com/cloud-manager-mcp/pull/30 | merged |
+| workflow-exec (orchestration record) | https://github.com/talkersoft-com/workflow-exec/pull/92 | merged |
 
 ## Code changes
 ### cloud-manager-api (Phase 1)
