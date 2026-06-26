@@ -24,11 +24,11 @@ proceeding — if either is absent, STOP and surface it.
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch; verify #2/#1.5 surface present
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: API — `GET /api/v1/vm/{publicId}/secret-binding` + backing service (join, public_ids, no value, 404)
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: MCP — `cloud_vm_secret_binding_list` (wraps the new endpoint; no value)
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: MCP — `cloud_blueprint_secret_binding_update` (wraps the existing PATCH; optional credName/position)
-- [ ] `Tasks/0004-TASK.md` — **Phase 4**: Verify round-trip + build + deploy; write Results + Retro/LESSONS, then hv_integrate
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch; verify #2/#1.5 surface present
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: API — `GET /api/v1/vm/{publicId}/secret-binding` + backing service (join, public_ids, no value, 404)
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: MCP — `cloud_vm_secret_binding_list` (wraps the new endpoint; no value)
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: MCP — `cloud_blueprint_secret_binding_update` (wraps the existing PATCH; optional credName/position)
+- [x] `Tasks/0004-TASK.md` — **Phase 4**: Verify round-trip + build + deploy; write Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000

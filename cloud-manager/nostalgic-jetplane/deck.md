@@ -12,7 +12,7 @@
 Repos not listed will be on the feature branch but skipped by hv_integrate. **No DB, no vorch, no web.**
 
 ## Branch
-`rakish-coldfront` — execution branch minted by hv_next in the warmup (2026-06-26), based on
+`coppery-canteloupe` — execution branch minted by hv_next in the warmup (2026-06-26), based on
 origin/hive across all 16 repos.
 
 ## Dependency
