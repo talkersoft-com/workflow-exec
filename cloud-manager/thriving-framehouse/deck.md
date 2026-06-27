@@ -4,7 +4,7 @@
 - **Deck:** `cloud-manager`
 - **Orchestration:** `thriving-framehouse`
 - **Workflow ref:** `feature@cloud-manager`
-- **Branch:** TBD — recorded by Task 0000 at run time (created via hv_init/hv_next)
+- **Branch:** `fuchsia-deertrail` — recorded by Task 0000 (created via hv_next from origin/hive, 2026-06-26)
 - **Workflow folder:** `/home/todd/workspace/cloud-manager/planning/workflow-exec/cloud-manager/thriving-framehouse`
 
 ## Deck operations (Hive Deck MCP)
