@@ -19,11 +19,11 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1**: API P0 — resolve-before-create + clean 422 + failure-event guard
-- [ ] `Tasks/0002-TASK.md` — **Phase 2**: API P1 — `secretBindingParams`; resolver uses supplied params; required-missing → 422
-- [ ] `Tasks/0003-TASK.md` — **Phase 3**: MCP — `cloud_marketplace_provision` optional `secretBindingParams` passthrough
-- [ ] `Tasks/0004-TASK.md` — **Final phase**: E2E + build api+mcp + deploy api; write Results + Retro/LESSONS, then hv_integrate
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record the execution branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1**: API P0 — resolve-before-create + clean 422 + failure-event guard
+- [x] `Tasks/0002-TASK.md` — **Phase 2**: API P1 — `secretBindingParams`; resolver uses supplied params; required-missing → 422
+- [x] `Tasks/0003-TASK.md` — **Phase 3**: MCP — `cloud_marketplace_provision` optional `secretBindingParams` passthrough
+- [x] `Tasks/0004-TASK.md` — **Final phase**: E2E + build api+mcp + deploy api; write Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000
