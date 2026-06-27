@@ -18,10 +18,10 @@ Read these before Task 0000:
 ## Task list
 Check the box when the task is implemented AND its test passes.
 
-- [ ] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch in deck.md
-- [ ] `Tasks/0001-TASK.md` — **Phase 1 (API)**: reversible migration adding `resolved_vault_path` to `vm.vm_secret_bindings`; populate from `SecretBindingResolver` at provision; read endpoint returns stored value, recompute only when null; build api
-- [ ] `Tasks/0002-TASK.md` — **Phase 2 (MCP)**: exempt `secretBindingParams[].params` map keys from the camelCase guard; guard unchanged elsewhere; build mcp
-- [ ] `Tasks/0003-TASK.md` — **Final phase**: E2E through MCP, apply migration, build api+mcp, deploy api, write Results + Retro/LESSONS, then hv_integrate
+- [x] `Tasks/0000-TASK.md` — **Phase 0**: hv_status + hv_init/hv_next; record branch in deck.md
+- [x] `Tasks/0001-TASK.md` — **Phase 1 (API)**: reversible migration adding `resolved_vault_path` to `vm.vm_secret_bindings`; populate from `SecretBindingResolver` at provision; read endpoint returns stored value, recompute only when null; build api
+- [x] `Tasks/0002-TASK.md` — **Phase 2 (MCP)**: exempt `secretBindingParams[].params` map keys from the camelCase guard; guard unchanged elsewhere; build mcp
+- [x] `Tasks/0003-TASK.md` — **Final phase**: E2E through MCP, apply migration, build api+mcp, deploy api, write Results + Retro/LESSONS, then hv_integrate
 
 ## Execution steps
 1. Read all inputs above before starting Task 0000.
