@@ -1,7 +1,7 @@
 # Deck: cloud-manager
 
 ## Execution branch
-`TBD` — created at run time by Task 0000 and recorded here.
+`stoneish-milkfish` — created by Task 0000 (hv_next from origin/hive) on 2026-06-27.
 
 > The scaffold was generated for deck `cloud-manager`, orchestration `airy-bathtub`.
 > The git execution branch is created in Task 0000, not pre-set.
