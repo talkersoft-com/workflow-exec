@@ -17,8 +17,8 @@
 every other repo in the deck.
 
 ## Branch
-`magical-armoire` — created by the warm-up `hv_next` on 2026-06-26; the scaffold is integrated on
-this branch. The orchestration's Task 0000 re-verifies and records the execution branch here.
+`ventured-hyena` — execution branch minted by the warm-up `hv_next` on 2026-06-26 (from origin/hive,
+16 repos). Task 0000 re-verified and recorded it here; no second branch was created.
 
 ## Initialize (Task 0000)
 ```
